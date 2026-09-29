@@ -1,0 +1,32 @@
+{
+  "name": "dsh-skill-gate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Hide the model-facing skill loader for the agents of the preset that mounts it, so a session can load a skill only when the user invokes it explicitly with /name.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "skill"
+  ],
+  "license": "MIT",
+  "author": "windwhiterain",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windwhiterain/dsh-skill-gate.git"
+  },
+  "homepage": "https://github.com/windwhiterain/dsh-skill-gate#readme",
+  "bugs": {
+    "url": "https://github.com/windwhiterain/dsh-skill-gate/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ]
+}
